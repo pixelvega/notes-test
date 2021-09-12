@@ -1,0 +1,29 @@
+@import '../../../styles/variables.css';
+
+.Notes {
+  background-color: var(--main-white-color);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: var(--main-white-color);
+}
+
+.Notes-header {
+  background-color: var(--main-dark-color);
+  text-align: center;
+  padding: 40px 1.2em 24px;
+}
+
+.Notes-header h1 {
+  margin: 0px;
+}
+
+.NoteList {
+  background-color: var(--main-white-color);
+  padding: 0px 1.2em;
+}
+
+.App-header h1 {
+  margin: 0;
+  padding: 24px 0px;
+  color: #f2f2f2;
+}
