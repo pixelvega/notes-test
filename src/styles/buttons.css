@@ -1,0 +1,40 @@
+/* BUTTONS */
+@import './variables.css';
+
+.btn-box {
+  padding: 12px 18px;
+  background-color: var(--main-dark-color);
+  border: 2px solid var(--main-white-color);
+  font-size: .6em;
+  color: var(--main-white-color);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .btn-box {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .btn-box + .btn-box {
+    margin-top: 10px;
+  }
+}
+.btn-box:disabled {
+  opacity: .4;
+}
+
+.btn-box.primary {
+  border: 2px solid #97e62e;
+  color: #97e62e;
+}
+
+.btn-box.delete {
+  border: 2px solid #ff0062;;
+  color:  #ff0062;;
+}
+
+.btn-box.action {
+  border: 2px solid #fbfbfb;
+  color: #fbfbfb;
+}

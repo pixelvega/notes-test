@@ -1,0 +1,12 @@
+.NoteList .message{
+  color: black;
+  font-size: .8em;
+}
+
+.List-block {
+  padding: 0;
+  list-style: none;
+  color: var(--main-dark-color);
+  border: 1px solid var(--main-dark-color);
+  border-radius: 4px;
+}
