@@ -91,6 +91,7 @@ function Notes() {
           />
           <NoteList
             items={items}
+            setItems={setItems}
             handleClick={handleClick}
             handleDoubleClick={handleDoubleClick}
           />

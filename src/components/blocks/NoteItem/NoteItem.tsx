@@ -5,7 +5,7 @@ import './NoteItem.css';
 interface IProps {
   item: Item,
   handleClick: (id: string) => void
-  handleDoubleClick: (id: string) => void
+  handleDoubleClick: (id: string) => void,
 }
 
 const NoteItem: React.FC<IProps> = ({ item, handleClick,
